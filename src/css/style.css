@@ -1,1 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Covered+By+Your+Grace&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delicious+Handrawn&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #3D3E61;
+}
+
+.practice-problems {
+    display: inline-flex;
+    gap: 160px;
+}
+
+.page-title {
+    color: gray;
+}
+
+.similar-font,
+.find-grid,
+.style-choice {
+    height: 800px;
+    width: 800px;
+}
+
+.similar-font-headline {
+    font-family: "Belanosima", system-ui;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 64px;
+    font-style: bold;
+    color: #FFBF43;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.similar-font-content {
+    color: #FFF;
+    font-family: Lekton;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.find-grid-headline {
+    color: #003053;
+    font-family: "IBM Plex Mono", system-ui;
+    font-weight: 700;
+    font-size: 64px;
+    font-style: normal;
+    text-transform: lowercase;
+    line-height: 1;
+    grid-column: 2 / span 6;
+    grid-row: 2;
+}
+
+.find-grid-content {
+    color: #003053;
+    font-family: "Crimson Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    grid-column: 2 / span 6;
+    grid-row: 5 / span 4;
+    columns: 2;
+}
+
+.find-grid-content p {
+    break-inside: avoid;
+    margin-top: 0;
+}
+
+.style-choice-headline {
+    color: #1A3143;
+    font-family: "Delicious Handrawn";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 0;
+}
+
+.style-choice-content {
+    color: #1A3143;
+    font-family: "Covered By Your Grace";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.content-container {
+    transform: rotate(-15deg);
+    display: flex;
+    width: 800px;
+    height: 650px;
+    padding: 199px 100px 0px 100px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 137px;
+    flex-shrink: 0;
+}
+
+.similar-font {
+    background-color: #3D3E61;
+    padding: 100px;
+}
+
+.find-grid {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+
+.style-choice {
+    background: url(../images/asfalt-dark.png) 0% / cover no-repeat, #58E3EB;
+}
