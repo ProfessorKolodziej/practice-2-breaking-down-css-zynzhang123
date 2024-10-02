@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.body {
-    background-color: #3D3E61;
+body {
+    background-color: #1e1e21;
 }
 
 .practice-problems {
@@ -14,7 +14,7 @@
 }
 
 .page-title {
-    color: gray;
+    color: white;
 }
 
 .similar-font,
